@@ -3,6 +3,9 @@ angular.module("etsyApp")
     $routeProvider.when("/home", {
         templateUrl: "html/home.html"
       })
+      .when(".io", {
+        templateUrl: "html/home.html"
+      })
       .when("/decor", {
         templateUrl: "html/decor.html"
       })
