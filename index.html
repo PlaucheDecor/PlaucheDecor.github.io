@@ -78,7 +78,7 @@
 
   <div ng-controller="MainController">
     {{test}}
-    <div ng-view></div>
+    <div ng-view onload="viewLoaded()"></div>
 
   </div>
 
@@ -94,18 +94,7 @@
     </div>
   </footer>
 
-  <!-- jQuery -->
-  <script src="js/jquery.js"></script>
 
-  <!-- Bootstrap Core JavaScript -->
-  <script src="js/bootstrap.min.js"></script>
-
-  <!-- Script to Activate the Carousel -->
-  <script>
-    $('.carousel').carousel({
-      interval: 5000 //changes the speed
-    })
-  </script>
   <!--Angular-->
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
   <!--ngRoute-->
@@ -115,8 +104,19 @@
 
   <script src="js/services/decorService.js"></script>
   <script src="js/route.js"></script>
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Script to Activate the Carousel -->
+  <script>
+    $('.carousel').carousel({
+      interval: 5000 //changes the speed
+    })
+  </script>
 
 
-</body>
+  < /body>
 
-</html>
+    < /html>

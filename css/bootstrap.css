@@ -5820,8 +5820,9 @@ a.badge:focus {
 .jumbotron {
   padding: 30px 15px;
   margin-bottom: 30px;
-  color: inherit;
-  background-color: #eee;
+  color: white;
+  background-color: darkslategray;
+  opacity: .8;
 }
 
 .jumbotron h1,
@@ -7845,19 +7846,19 @@ button.close {
 /*# sourceMappingURL=bootstrap.css.map */
 
 .storeListing {
+  font-family: sans-serif;
+  color: white;
   height: 250px;
-  /*  margin-bottom: 10px;*/
-  /*  margin-top: 10px;*/
-  /*
-  margin-left: 10px;
-margin-right: 10px;
-*/
   padding-left: 5px;
   padding-right: 5px;
   background-clip: padding-box;
   border: 10px solid transparent;
   border-radius: 5px;
   text-align: center;
+}
+
+.storeListing p a {
+  color: white;
 }
 
 .EtsyScroll {
